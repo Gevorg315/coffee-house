@@ -1,0 +1,25 @@
+{
+  "name": "coffee-house",
+  "version": "1.0.0",
+  "description": "Coffee House project deployment",
+  "private": true,
+  "scripts": {
+    "predeploy": "echo 'Preparing deployment...'",
+    "deploy": "gh-pages -d coffee-house"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gevorg315/coffee-house.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gevorg315/coffee-house/issues"
+  },
+  "homepage": "https://gevorg315.github.io/coffee-house",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
+
